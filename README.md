@@ -9,3 +9,6 @@ Demo code for College Notice Board:http://127.0.0.1:5500/index.html
 
 Demo code for Responsive Photo Gallery:http://127.0.0.1:5500/gall.html
 <img width="1920" height="892" alt="Screenshot (180)" src="https://github.com/user-attachments/assets/a4904efd-9526-492b-9c7e-dfcc949b24a6" />
+
+Demo code for Navigation Bar with Dropdown:http://127.0.0.1:5500/navigation.html
+<img width="1920" height="878" alt="Screenshot (195)" src="https://github.com/user-attachments/assets/9c37fd23-97d8-410c-88a2-9a98e378d363" />
