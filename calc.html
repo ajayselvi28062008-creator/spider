@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <style>
+        body{
+            font-family:Times New Roman;
+            background:violet;
+        }
+
+        h1{
+            text-align:center;
+        }
+
+        .cal{
+            width:280px;
+            margin:auto;
+            background:white;
+            padding:15px;
+        }
+
+        input{
+            width:100%;
+            height:45px;
+            text-align:right;
+            margin:3px;
+        }
+
+        button{
+            width:60px;
+            height:45px;
+            margin:3px;
+            font-size:16px;
+        }
+    </style>
+    <script>
+        function add(v){d.value+=v;}
+        function clr(){d.value="";}
+        function calc(){d.value=eval(d.value);}
+    </script>
+</head>
+<body>
+    <div class="cal">
+        <h1>Calculator</h1> 
+        <input id="d" readonly>
+
+    <br>
+
+    <button onclick="add('7')">7</button>
+    <button onclick="add('8')">8</button>
+    <button onclick="add('9')">9</button>
+    <button onclick="add('/')">/</button>
+
+    <br>
+
+    <button onclick="add('4')">4</button>
+    <button onclick="add('5')">5</button>
+    <button onclick="add('6')">6</button>
+    <button onclick="add('*')">*</button>
+
+    <br>
+
+    <button onclick="add('1')">1</button>
+    <button onclick="add('2')">2</button>
+    <button onclick="add('3')">3</button>
+    <button onclick="add('-')">-</button>
+
+    <br>
+
+    <button onclick="add('0')">0</button>
+    <button onclick="add('.')">.</button>
+    <button onclick="calc('=')">=</button>
+    <button onclick="add('+')">+</button>
+
+    <br>
+
+    <button onclick="clr()" style="width:270px;background:red;color:white;">
+    Clear
+    </button>
+    </div>
+</body>
+</html>
